@@ -1,3 +1,4 @@
-# HorseToZebra
+# Neural Style Transfer
+Using Cycle GANs for Image to Image Style Transfers
 
-# [Dataset](https://www.kaggle.com/balraj98/horse2zebra-dataset)
+# [Monet Style Transfer](https://www.kaggle.com/c/gan-getting-started)
