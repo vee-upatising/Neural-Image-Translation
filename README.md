@@ -1,8 +1,17 @@
-# Neural Style Transfer
+# Neural Image Translation
 Using Unpaired Image to Image Translation to perform Neural Style Transfer using Cycle GANs
 
 ![results](https://i.imgur.com/ASDqrJH.jpeg)
 
-# [Monet Style Transfer](https://www.kaggle.com/c/gan-getting-started)
+* ## Requirements
+  * Python 3
+  * Keras
+  * Tensorflow == ```2.5.0```
+  * Sklearn
+  * Skimage
+  * Numpy
+  * Matplotlib
+  * PIL
 
-# [Horse to Zebra](https://www.kaggle.com/balraj98/horse2zebra-dataset)
+* ## Generated Training Sample
+![Training](https://i.imgur.com/GsIg9wx.png)
