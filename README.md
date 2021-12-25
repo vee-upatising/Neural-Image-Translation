@@ -1,5 +1,6 @@
 # Neural Image Translation
-Using Unpaired Image to Image Translation to perform Neural Style Transfer using Cycle GANs
+Using Cycle GANs to perform Unpaired Image to Image Translation with Tensorflow
+
 
 ![results](https://i.imgur.com/ASDqrJH.jpeg)
 
