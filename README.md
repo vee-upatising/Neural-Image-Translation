@@ -1,5 +1,5 @@
 # Neural Image Translation
-Using Cycle GANs to perform Unpaired Image to Image Translation with Tensorflow
+Using [Cycle GANs](https://arxiv.org/abs/1703.10593) to perform Unpaired Image to Image Translation with Tensorflow
 
 
 ![results](https://i.imgur.com/ASDqrJH.jpeg)
