@@ -27,10 +27,22 @@ Using [Cycle GANs](https://arxiv.org/abs/1703.10593) to perform Unpaired Image t
           * ```interval```: Integer representing how many epochs between saving your model.
           * ```model_save_path```: File path pointing to the folder where you want to save to model as well as generated samples.
           * ```output_path```: File path pointing to folder containing output dataset. Only needs to be defined if ```preprocessed_dataset``` is ```False```.
-          * ```pretraining```: # Boolean flag for if you want to train starting with a pretrained model.
+          * ```pretrain```: # Boolean flag for if you want to train starting with a pretrained model.
           * ```pretrained_model_path```: # File path pointing to pretrained H5 model if pretraining mode is enabled.
-          * ```preprocessed_dataset```: Boolean flag for if you want to train with a preprocessed TensorFlow Dataset.
+          * ```preprocessed_dataset```: Boolean flag for if you want to train with a preprocessed [Tensorflow Dataset](https://www.tensorflow.org/datasets/catalog/cycle_gan).
           * ```training_epochs```: Integer representing how many epochs to train the model.
+
+  * ## [Cycle GAN Inference](https://nbviewer.org/github/vee-upatising/Neural-Image-Translation/blob/main/Cycle%20GAN%20Inference.ipynb)
+      * This script is used to test trained Cycle GAN models and plot results.
+
+      * ### User Specified Parameters:
+          * ```dataset_dimensions```: Tuple defining dimensions to resize the dataset to during preprocessing.
+          * ```dataset_name ```: String representing name of [Tensorflow Dataset](https://www.tensorflow.org/datasets/catalog/cycle_gan) (e.g. ```cycle_gan/summer2winter_yosemite```). Only needs to be defined if ```preprocessed_dataset``` is ```True```.
+          * ```input_path```: File path pointing to folder containing input dataset. Only needs to be defined if ```preprocessed_dataset``` is ```False```.
+          * ```model_path```: File path pointing to H5 model saved during training process.
+          * ```output_path```: File path pointing to folder containing output dataset. Only needs to be defined if ```preprocessed_dataset``` is ```False```.
+          * ```preprocessed_dataset```: Boolean flag for if you want to train with a preprocessed [Tensorflow Dataset](https://www.tensorflow.org/datasets/catalog/cycle_gan).
+          * ```results_save_path```: File path pointing to folder where generated results are saved.
 
 * ## Generated Training Sample
 ![Training](https://i.imgur.com/GsIg9wx.png)
