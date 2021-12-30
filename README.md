@@ -46,5 +46,5 @@ Using [Cycle GANs](https://arxiv.org/abs/1703.10593) to perform Unpaired Image t
  ![summer2winter](https://i.imgur.com/daww4kv.jpg)
    *  ### [Map to Satelite](https://www.tensorflow.org/datasets/catalog/cycle_gan#cycle_ganmaps)
  ![map2satelite](https://i.imgur.com/0LiLVeH.jpg)
-    *  ### [Satelite 2 Map](https://www.tensorflow.org/datasets/catalog/cycle_gan#cycle_ganmaps)
+   *  ### [Satelite 2 Map](https://www.tensorflow.org/datasets/catalog/cycle_gan#cycle_ganmaps)
  ![Satelite 2 Map](https://i.imgur.com/YFvUyJt.jpg)
