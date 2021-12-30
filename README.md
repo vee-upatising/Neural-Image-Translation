@@ -45,7 +45,7 @@ Using [Cycle GANs](https://arxiv.org/abs/1703.10593) to perform Unpaired Image t
           * ```results_save_path```: File path pointing to folder where generated results are saved.
 
 * ## Generated Training Sample
-![Training](https://i.imgur.com/GsIg9wx.png)
+![Training](https://i.imgur.com/uJFmXc6.png)
 
 * ## Results
   *  ### [Horse to Zebra](https://www.tensorflow.org/datasets/catalog/cycle_gan#cycle_ganhorse2zebra)
