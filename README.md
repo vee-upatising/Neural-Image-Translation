@@ -37,7 +37,7 @@ Using [Cycle GANs](https://arxiv.org/abs/1703.10593) to perform Unpaired Image t
 
       * ### User Specified Parameters:
           * ```dataset_dimensions```: Tuple defining dimensions to resize the dataset to during preprocessing.
-          * ```dataset_name ```: String representing name of [Tensorflow Dataset](https://www.tensorflow.org/datasets/catalog/cycle_gan) (e.g. ```cycle_gan/summer2winter_yosemite```). Only needs to be defined if ```preprocessed_dataset``` is ```True```.
+          * ```dataset_name ```: String representing name of [Tensorflow Dataset](https://www.tensorflow.org/datasets/catalog/cycle_gan) (e.g. ```cycle_gan/horse2zebra```). Only needs to be defined if ```preprocessed_dataset``` is ```True```.
           * ```input_path```: File path pointing to folder containing input dataset. Only needs to be defined if ```preprocessed_dataset``` is ```False```.
           * ```model_path```: File path pointing to H5 model saved during training process.
           * ```output_path```: File path pointing to folder containing output dataset. Only needs to be defined if ```preprocessed_dataset``` is ```False```.
