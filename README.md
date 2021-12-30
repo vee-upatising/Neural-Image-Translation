@@ -22,3 +22,15 @@ Using [Cycle GANs](https://arxiv.org/abs/1703.10593) to perform Unpaired Image t
 
 * ## Generated Training Sample
 ![Training](https://i.imgur.com/GsIg9wx.png)
+
+* ## Results
+  *  ### [Horse to Zebra](https://www.tensorflow.org/datasets/catalog/cycle_gan#cycle_ganhorse2zebra)
+ ![horse2zebra](https://i.imgur.com/GBeZUsT.jpg)
+   *  ### [Zebra to Horse](https://www.tensorflow.org/datasets/catalog/cycle_gan#cycle_ganhorse2zebra)
+ ![zebra2horse](https://i.imgur.com/AAKS1zL.jpg)
+   *  ### [Winter to Summer](https://www.tensorflow.org/datasets/catalog/cycle_gan#cycle_gansummer2winter_yosemite)
+ ![winter2summer](https://i.imgur.com/idCqJuL.png)
+   *  ### [Summer to Winter](https://www.tensorflow.org/datasets/catalog/cycle_gan#cycle_gansummer2winter_yosemite)
+ ![summer2winter](https://i.imgur.com/daww4kv.jpg)
+   *  ### [Map to Satelite](https://www.tensorflow.org/datasets/catalog/cycle_gan#cycle_ganmaps)
+ ![map2satelite](https://i.imgur.com/0LiLVeH.jpg)
