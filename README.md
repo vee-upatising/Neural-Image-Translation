@@ -33,7 +33,7 @@ Using [Cycle GANs](https://arxiv.org/abs/1703.10593) to perform Unpaired Image t
           * ```training_epochs```: Integer representing how many epochs to train the model.
 
   * ## [Cycle GAN Inference](https://nbviewer.org/github/vee-upatising/Neural-Image-Translation/blob/main/Cycle%20GAN%20Inference.ipynb)
-      * This script is used to test trained Cycle GAN models and plot results.
+      * This script is used to test Cycle GAN models and plot results.
 
       * ### User Specified Parameters:
           * ```dataset_dimensions```: Tuple defining dimensions to resize the dataset to during preprocessing.
